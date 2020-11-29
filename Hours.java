@@ -31,6 +31,7 @@ public class Hours {
         for (int j = 0; j <= hours.length; ++j) {
             System.out.print("\nInputted work hours: " + hours[j - 1] + " ");
         }
+        reader.close();
     }
 
     private static double totalHours(double[] hours) {
