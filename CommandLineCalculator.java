@@ -19,7 +19,13 @@ class Calculator {
             int operand = Integer.parseInt(args[i] + args[i + 1]);
             result += operand;
         }
-        System.out.println(result);
+
+        System.out.print("Result of the calculation ");
+        for (int i=0; i<args.length; i++){
+            System.out.print(args[i] + " ");
+        }
+        System.out.print(" is " + result);
+        System.out.println();
     }
 }
 //
